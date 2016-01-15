@@ -15,3 +15,5 @@ ADD elasticsearch.yml /elasticsearch/config/elasticsearch.yml
 
 # Copy run script
 COPY run.sh /
+
+RUN chmod +x /run.sh
